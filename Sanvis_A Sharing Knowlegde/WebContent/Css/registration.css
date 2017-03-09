@@ -94,7 +94,8 @@ input, input::-webkit-input-placeholder {
 	margin: 0 auto;
 	max-width: 400px;
 	padding: 10px 40px;
-	background: #009edf;
+	background: #bb9450;
+	background-image:url("../images/Library-Books-Background.jpg")
 	color: #FFF;
 	text-shadow: none;
 	-webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.31);
@@ -113,5 +114,41 @@ span.input-group-addon i {
 
 .login-register {
 	font-size: 11px;
+	text-align: center;
+}
+
+.input[type=submit] {
+	background-color: #ccc;
+	padding: 10px 20px;
+	border: none;
+	color: #333;
+	text-transform: uppercase;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px #ccc;
+	outline: none;
+}
+
+.requirements {
+      padding: 0 30px 0 50px;
+      color: #999;
+      max-height: 0;
+      transition: 0.28s;
+      overflow: hidden;
+      color: red;
+      font-style: italic;
+    }
+
+/* input[type=reset] {
+	background-color: #ccc;
+	padding: 10px 20px;
+	border: none;
+	color: #333;
+	text-transform: uppercase;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px #ccc;
+	outline: none;
+}
+ */
+.BtnFields {
 	text-align: center;
 }

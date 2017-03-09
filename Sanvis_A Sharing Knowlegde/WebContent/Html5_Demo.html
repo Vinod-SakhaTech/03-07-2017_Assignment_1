@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<nav>
+
+		<a href="#">1</a> | <a href="#">2</a> | <a href="#">3</a> | <a
+			href="#">4</a> | <a href="#">5</a> |
+
+
+	</nav>
+
+	<output> </output>
+
+
+	<menu>
+
+	</menu>
+
+
+	<form onsubmit="return false"
+		oninput="document.getElementById('o').innerHTML=parseFloat(document.getElementById('a').value)
+		                                                *parseFloat(document.getElementById('b').value)                                 
+		*parseFloat(document.getElementById('c').value)/100">
+		<input name="a" id="a" type="number" step="any">* 
+		<input name="b" id="b" type="number" step="any">* 
+		<input name="c" id="c" type="number" step="any">=
+		<output name="o" id="o" form="a b c"></output>
+
+
+
+	</form>
+
+
+
+</body>
+</html>
